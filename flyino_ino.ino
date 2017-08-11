@@ -783,8 +783,6 @@ void doCmd(int option)
 			scheduleOfflineTest(option);
 			break;
 		case '5':
-			eepromWriteUserByte(BASE_HOVER_POWER_ADDR);
-			eepromWriteUserByte(TRIM_ADDR);
 			scheduleOfflineTest(option);
 			break;
 		case '6':
@@ -977,4 +975,3 @@ void loop()
 		}
 	}
 }
-
